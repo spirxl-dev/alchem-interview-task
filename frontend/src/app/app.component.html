@@ -1,0 +1,6 @@
+<div style="text-align:center">
+  <h1>System Status</h1>
+  <div *ngFor="let event of events">
+    <strong>{{ event.timestamp }}</strong>: {{ event.status }} - {{ event.message }}
+  </div>
+</div>
