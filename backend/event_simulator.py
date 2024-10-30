@@ -15,6 +15,7 @@ def simulate_event():
     )
     conn.commit()
     conn.close()
+    print(message)
 
 
 while True:

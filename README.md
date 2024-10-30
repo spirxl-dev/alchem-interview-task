@@ -1,5 +1,5 @@
 
-# Alchem Demo Project
+# Alchem Interview Task
 
 This project consists of a FastAPI backend and an Angular frontend. The backend provides a /status API endpoint that the frontend consumes to display simulated event data. Event data is produced periodically by backend/event_simulator.
 
@@ -19,7 +19,7 @@ This project consists of a FastAPI backend and an Angular frontend. The backend 
 
 1. **Navigate to the backend folder**:
    ```bash
-   cd alchem-interview-task/backend
+   cd backend
    ```
 
 2. **Create a virtual environment** (optional but recommended):
@@ -54,7 +54,7 @@ This project consists of a FastAPI backend and an Angular frontend. The backend 
 
 1. **Navigate to the frontend folder**:
    ```bash
-   cd alchem-interview-task/frontend
+   cd frontend
    ```
 
 2. **Install Angular dependencies**:
